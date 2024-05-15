@@ -67,5 +67,5 @@ Please see [Write Custom Theme for Typora](http://theme.typora.io/doc/Write-Cust
 
 You can open Chrome/Safari DevTools to debug element styles.
 
-- On macOS, you could check `Help` -> `Enable Debug` menu item, then right click anywhere in Typora's hybrid edit view, then click "Inspect Elements" from context menu.
+- On macOS, please follow <https://support.apple.com/en-hk/guide/safari/sfri20948/mac> to enable `Develop` menu from Safari, then inspect Typora's webview from Safari menu → Develop → [your macOS device name] → Typora.
 - On Windows/Linux, you could open DevTools from `View` -> `Toggle DevTools` menu item.
