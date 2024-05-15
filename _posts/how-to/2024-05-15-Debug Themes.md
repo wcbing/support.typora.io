@@ -11,7 +11,7 @@ typora-copy-images-to: ../../media/debug-themes
 
 ## macOS
 
-For macOS ≥ 13.3 and Typora ≥ 1.9, you can debug. Typora theme CSS in following way:
+For macOS ≥ 13.3 and Typora ≥ 1.9, you can debug Typora theme or CSS in following way:
 
 1. **Enable Develop menu item in Safari** --- you must also have enabled Web Inspector in the Settings app under **Safari** > **Advanced** > **Web Inspector**. [Learn more about enabling Web Inspector…](https://webkit.org/web-inspector/enabling-web-inspector/)
 2. Select **Safari** menu → **Develop** → [your device name] → **Typora** to open the DevTools.
