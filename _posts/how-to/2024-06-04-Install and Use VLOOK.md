@@ -8,6 +8,8 @@ typora-root-url: ../../
 typora-copy-images-to: ../../media/vlook
 ---
 
+[中文说明](/zh/Install-and-Use-VLOOK/)
+
 **VLOOK™ make your Markdown a new perspective_^Interaction^_!**
 
 
@@ -34,7 +36,7 @@ Download the latest version from the homepage of VLOOK™:
 
 Enable all options under "**Markdown Extended Syntax**", "**Code Blocks**" of Typora. See the figure below for details:
 
-vlook![Typora ▸ Preferences ▸ Markdown](/media/vlook/typora-opt1-light-en.png)
+![Typora ▸ Preferences ▸ Markdown](/media/vlook/typora-opt1-light-en.png)
 
 
 
@@ -92,7 +94,9 @@ All samples `.md` files in the directory ==released/samples==
 
 • For detailed introduction, samples and instructions of VLOOK™ features, please refer to "VLOOK™ Quick Reference Manual"
 
-**[Guide (part 1)](https://madmaxchow.github.io/VLOOK/guide.html)** - [alternative link](https://vlook-doc.pages.dev/guide.html)　　**[Guide (part 2)](https://madmaxchow.github.io/VLOOK/guide2.html)** - [alternative link](https://vlook-doc.pages.dev/guide2.html)
+**[Guide (part 1)](https://madmaxchow.github.io/VLOOK/guide.html)** - [alternative link](https://vlook-doc.pages.dev/guide.html)　　
+
+**[Guide (part 2)](https://madmaxchow.github.io/VLOOK/guide2.html)** - [alternative link](https://vlook-doc.pages.dev/guide2.html)
 
 
 
