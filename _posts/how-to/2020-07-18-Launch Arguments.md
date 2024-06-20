@@ -30,7 +30,7 @@ You can launch Typora.exe with extra arguments, for example:
 
 You can find more details here → https://www.electronjs.org/docs/api/command-line-switches
 
-## Luanch Typora with proxy (Windows / Linux)
+## Launch Typora with proxy (Windows / Linux)
 
 Run `C:\Program Files\Typora/typora.exe --proxy-server=address:port`, for example `C:\Program Files\Typora/typora.exe --proxy-server=socks5://127.0.0.1:1080`
 
