@@ -42,7 +42,6 @@ jobs:
           sed -i 's/rubygems.org/gems.ruby-china.com/g' Gemfile
           git commit -am "update Gemfile"
           git checkout -b master
-          gem install ffi -v 1.17.0
         env:
           SSH_KEY: ${{secrets.ALIYUN_SERVER_ACCESS_TOKEN}}
           PEM_KEY: ${{secrets.ALIYUN_PEM}}
