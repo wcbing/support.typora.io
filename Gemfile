@@ -7,6 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
+gem "ffi", 1.17.0
 gem "jekyll", "4.2.0"
 gem "jekyll-sass-converter", "~> 2.0"
 gem "jekyll-redirect-from"
