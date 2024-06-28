@@ -39,8 +39,9 @@ jobs:
           git config --global user.email "hi@typora.io"
           git config --global user.name "Typora"
           git remote add a dokku@dokku.typoraio.cn:wiki
-          sed -i 's/rubygems\.org/gems.ruby-china.org/g' Gemfile
-          sed -i 's/rubygems\.org/gems.ruby-china.org/g' Gemfile.lock
+          sed -i 's/rubygems\.org/gems.ruby-china.com/g' Gemfile
+          sed -i 's/rubygems\.org/gems.ruby-china.com/g' Gemfile.lock
+          grep "gems.ruby-china.com" Gemfile 
           git commit -am "update Gemfile"
           git checkout -b master
         env:
