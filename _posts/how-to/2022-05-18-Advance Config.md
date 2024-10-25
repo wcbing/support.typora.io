@@ -54,7 +54,7 @@ When enabled, the menubar is hidden, and you can toggle it is shown or hidden by
 
 ### `searchService`
 
-Please refer [Add Search Service](Add-Search-Service/).
+Please refer [Add Search Service](/Add-Search-Service/).
 
 ### `keyBinding`
 
