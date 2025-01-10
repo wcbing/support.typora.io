@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Install and Use VLOOK
+title: Install and Use VLOOK™ Themes and Plugins
 category: how-to
 author: typora.io
-tags: [themes, export, html, vlook]
+tags: [themes, plugins, export, html, vlook]
 typora-root-url: ../../
 typora-copy-images-to: ../../media/vlook
 ---
 
 [中文说明](/zh/Install-and-Use-VLOOK/)
 
-**VLOOK™ make your Markdown a new perspective_^Interaction^_!**
+**VLOOK™ - Give Your Markdown a New Perspective!**
 
 
 
@@ -30,11 +30,11 @@ You can start a brand **new Markdown experience** in **just 3 steps**:
 
 Download the latest version from the homepage of VLOOK™:
 
-**[GitHub](https://github.com/MadMaxChow/VLOOK/releases)** 　　**[Gitee](https://gitee.com/madmaxchow/VLOOK/releases?kbd=alt)**
+**[GitHub](https://github.com/MadMaxChow/VLOOK/releases)** 　　**[Gitee](https://gitee.com/madmaxchow/VLOOK/releases)**
 
 **• Enable extended syntax:**
 
-Enable all options under "**Markdown Extended Syntax**", "**Code Blocks**" of Typora. See the figure below for details:
+Enable all options under `Markdown Extended Syntax`, `Code Blocks` of Typora. See the figure below for details:
 
 ![Typora ▸ Preferences ▸ Markdown](/media/vlook/typora-opt1-light-en.png)
 
@@ -44,19 +44,19 @@ Enable all options under "**Markdown Extended Syntax**", "**Code Blocks**" of Ty
 
 **• Install the Themes:**
 
-1. The ==released\themes== all CSS files are copied to Typora theme directory;
-2. Where is the theme directory? You can navigate to this directory by clicking ==Settings ▸ Appearance ▸ Open Theme Directory==.
+1. The `released\themes` all CSS files are copied to Typora theme directory;
+2. Where is the theme directory? You can navigate to this directory by clicking `Settings ▸ Appearance ▸ Open Theme Directory`.
 
 **• Select Theme:**
 
 1. Restart Typora;
-2. Click the ==Themes== menu, select to `Vlook ***` any topic can be in the form of naming.
+2. Click the `Themes` menu, select to `Vlook ***` any topic can be in the form of naming.
 
 **• Start Writing from the Template:**
 
 It is recommended to create your own Markdown document based on the document samples of the VLOOK™ specification, so that you can get started faster.
 
-All samples `.md` files in the directory ==released/samples==
+All samples `.md` files in the directory `released/samples`
 
 
 
@@ -65,13 +65,13 @@ All samples `.md` files in the directory ==released/samples==
 **• Configure export setting:**
 
 1. Start Typora and enter "**Preferences**"
-2. Click "**Export**", add configuration (==select HTML as a template==), and name the configuration `VLOOK`
+2. Click "**Export**", add configuration (**select HTML as a template**), and name the configuration `VLOOK`
 
 **• Install Meta Tag:**
 
 1. Open the meta tag file: released\plugin\\**meta.txt**
 2. Select and copy all contents
-3. Paste to "**Append in &lt;head /&gt;**
+3. Paste to "**Append in &lt;head /&gt;**"
 
 **• Install the Plugin:**
 
@@ -82,25 +82,35 @@ All samples `.md` files in the directory ==released/samples==
 **• One-click export via VLOOK:**
 
 1. Open the md file conforming to the VLOOK™ specification;
-2. Click ==File ▸ Export ▸ VLOOK== to export.
+2. Click `File ▸ Export ▸ VLOOK` to export.
 
 ![Typora ▸ Preferences ▸ Export](/media/vlook/typora-opt2-light-en.png?srcset=@2x&darksrc=typora-opt2-dark-en.png&darksrcset=@2x)
 
-
-
-# Blog & Guide
-
-• Blogs selected for the "**Zhihu • Sea Salt Project**" •• [Go go go](https://www.zhihu.com/people/maxchow/posts)
-
-• For detailed introduction, samples and instructions of VLOOK™ features, please refer to "VLOOK™ Quick Reference Manual"
-
-**[Guide (part 1)](https://madmaxchow.github.io/VLOOK/guide.html)** - [alternative link](https://vlook-doc.pages.dev/guide.html)　　
-
-**[Guide (part 2)](https://madmaxchow.github.io/VLOOK/guide2.html)** - [alternative link](https://vlook-doc.pages.dev/guide2.html)
-
-
-
 # Supplement
+
+## Language Package
+
+VLOOK™ UI language is pre-installed with **English** and **Simplified Chinese** by default.
+
+To support more language for the exported HTML, you can choose to append the content of the corresponding language package to the "Meta Tag" section in the export configuration. After doing so, re-export the HTML to include the additional language.
+
+Currently supported languages for expansion include:
+
+`Français`  `Detusch` `Русский` `Español` `Português` `Traditional Chinese` `日本語` `한국어` `العربية`
+
+**• Select language package**
+
+1. The language package file is located in the `released/plugin/lang` (Or directly visit the [**lang**](https://github.com/MadMaxChow/VLOOK/tree/master/released/plugin/lang) folder on GitHub)
+2. Open language file and copy all the content. (e.g: `Français.txt` )
+
+**• Update export configuration**
+
+1. Open `Typora > Preferences`, and select the added export configuration `VLOOK`
+2. **Append** the copied content to the end of the existing content in the `Append in <head />` (**Note: Do not overwrite the existing content!**)
+
+*If you need to extend support for multiple languages, simply repeat the steps above.*
+
+## Upgrades and Compatibility
 
 **• How to update to latest version ?**
 
@@ -111,3 +121,14 @@ To upgrade the old version of VLOOK™ to the latest version, please first follo
 In order to ensure the best user experience, it is strongly recommended to use the following browsers to access:
 
 **[Chrome](https://www.google.cn/chrome/)**　　**[Edge](https://www.microsoft.com/edge)**　　**[Firefox](https://www.mozilla.org/firefox)**
+
+# More documents
+
+For detailed introduction, samples and instructions of VLOOK™ features:
+
+**[Introduction](https://madmaxchow.github.io/VLOOK/index.html)** - [alternative link](https://vlook-doc.pages.dev/index.html)　　
+
+**[Guide](https://madmaxchow.github.io/VLOOK/guide.html)** - [alternative link](https://vlook-doc.pages.dev/guide.html)
+
+
+
