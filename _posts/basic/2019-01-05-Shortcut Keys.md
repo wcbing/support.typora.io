@@ -14,13 +14,13 @@ redirect_from: "Custom-Key-Binding"
 
 You can use shortcut keys to quickly insert or modify styles or do other operations supported by Typora.
 
-You can find shortcut keys in the right side of each menu items from menu bar.
+You can find shortcut keys on the right side of each menu item within the menu bar.
 
 ## Frequently Used Shortcut Keys
 
 ### Autocomplete
 
-On macOS, you can press `Esc` key to open inline preview for inline math, auto-complete for emoji, etc.
+On macOS, you can press <kbd>Esc</kbd> key to open inline preview for inline math, auto-complete for emoji, etc.
 
 ### File
 
@@ -114,23 +114,23 @@ On macOS, you can press `Esc` key to open inline preview for inline math, auto-c
 
 ## Change Shortcut Keys
 
-Users can set or reassign shortcut keys for commands in Typora's menu bar. This article will shows how to do this.
+Users can set or reassign shortcut keys for commands in Typora's menu bar. This article will show you how to do this.
 
 ### macOS
 
-We use macOS's system feature to customize Typora's key binding on macOS.
+We use macOS's system feature to customize Typora's key bindings on macOS.
 
-1. Open `System Preference` → `Keyboard`, select tab `Shortcuts`. Select `App Shortcuts` in its left panel.
+1. Open `System Preference` → `Keyboard`, select tab `Shortcuts`. Select `App Shortcuts` in the left panel.
 
    ![Snip20160814_1](/media/custom-key-binding/Snip20160814_1.png)
 
-2. Click the "+" button, a dialog sheet would pop up. Select "Typora.app" from field `Application`, then enter the exact name of the menu command you want to add, and then type the shortcut key combination you want to assign.
+2. Click the "+" button, a dialog sheet will pop up. Select "Typora.app" from the `Application` field, then enter the exact name of the menu command you want to add and then type the shortcut key combination you want to assign.
 
-   For example, assume you want to add/change the shortcut key to pin Typora's window, you can fill the dialog box as follows:
+   For example, assuming you want to add/change the shortcut key to pin Typora's window, you can fill the dialog box as follows:
 
    ![Snip20160814_5](/media/custom-key-binding/Snip20160814_5.png)
 
-   Then `Command+Shift+P` will be the shortcut key for menu command "always On Top"
+   Then <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> will be the shortcut key combination for the menu command "Always On Top".
 
 ### Windows / Linux
 
@@ -140,19 +140,19 @@ We use macOS's system feature to customize Typora's key binding on macOS.
 
    ![sshot-1](/media/custom-key-binding/sshot-1.png)
 
-2. Open and edit `conf.user.json` from opened "File Explore". If there's no such file, create one.
+2. Open and edit `conf.user.json` from the opened "File Explorer". If there's no such file, create one.
 
-3. Set or add JSON object which represents a key binding, for example:
+3. Set or add a JSON object which represents a key binding, for example:
 
    ![Snip20160814_7](/media/custom-key-binding/Snip20160814_7.png)
 
-4. Restart Typora, and the new key binding will be applied.
+4. Restart Typora. The new key binding will be applied.
 
    ![sshot-2](/media/custom-key-binding/sshot-2.png)
 
-You can set or change shortcut keys for menu items in the menu bar in native window style.
+You can set or change shortcut keys for menu items in the menu bar in the native window style.
 
-#### Q: Shortcut keys does not work on Ubuntu
+#### Q: Shortcut keys do not work on Ubuntu
 
 For solutions to this problem please see:
 - <https://help.ubuntu.com/community/KeyboardShortcuts> and 

@@ -10,22 +10,22 @@ typora-root-url: ../../
 
 # Welcome
 
-Thank you for choosing **Typora**. This document will help you to start Typora.
+Thank you for choosing **Typora**. This document will help you get started with Typora.
 
 * Outline
 {:toc}
 
 ## Live Preview
 
-**Typora** uses the feature: *Live Preview*, meaning that you could see these inline styles after you finish typing, and see block styles when you type or after you press `Enter` key or focus to another paragraph. Just try to type some markdown in typora, and you would see how it works.
+**Typora** uses the feature: *Live Preview*, meaning that you can see inline styles as soon as you finish typing them and see block styles as you type or after you press the <kbd>Enter</kbd> key to focus on the next paragraph. Just try typing some Markdown in Typora, and you would see how it works.
 
 **Note**: Markdown tags for inline styles, such as `**` will be hidden or displayed smartly. Markdown tags for block level styles, such as `###` or `- [x]` will be hidden once the block is rendered.
 
 ## Markdown For Typora
 
-**Typora** is using [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/), For more detail, please open [Markdown Reference](/Markdown-Reference/).
+**Typora** use [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/), For more details, please open the [Markdown Reference](/Markdown-Reference/).
 
-To see full markdown Syntax references and extra usage, please check `Help`->`Markdown Reference` in menu bar.
+To see full Markdown Syntax references and extra usage, please check `Help`->`Markdown Reference` in the menu bar.
 
 ## Useful Shortcuts
 
@@ -35,59 +35,59 @@ For more shortcut keys and custom key bindings, you can refer [here](http://supp
 
 ### Open Quickly
 
-The quick open panel can be popped up by pressing <kbd>Command+Shift+O</kbd> (*on macOS*) or <kbd>Ctrl+P</kbd> (*on Windows/Linux*), or click "Open Quickly" from `File` menu.
+The quick open panel can be popped up by pressing <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd> (*on macOS*), <kbd>Ctrl</kbd> + <kbd>P</kbd> (*on Windows/Linux*) or clicking "Open Quickly" from the `File` menu.
 
-You could use fuzzy search to find & open files in current folder quickly.
+You can use fuzzy search to find & open files in the current folder quickly.
 
 ### Open Folder
 
-You could select a folder in the open file dialog popup from `File` → `Open` menu to open a folder in Typora. Actually you do not need to open folder explicitly in this way, when you open a file, its parent folder will be automatically loaded, you could check the folder from "Files Sidebar", which will be introduce below.
+You can select a folder in the open file dialog popup from `File` → `Open` in the menu to open a folder in Typora. Actually, you do not need to open a folder explicitly in this way as when you open a file its parent folder will be automatically loaded. You could check the folder from the "Files Sidebar", which will be introduced below.
 
 ### Files Sidebar
 
-User can toggle sidebar from menubar or from titlebar on macOS and from status bar on Windows/Linux.
+Users can toggle the sidebar using the menubar or from the titlebar on macOS and from the status bar on Windows/Linux.
 
 Typora has two types of sidebar:
 
-- Outline Panel (display *table of contents* of current document)
+- Outline Panel (display *table of contents* of the current document)
 - File Tree (display loaded folder in tree hierarchy)
 - File List (display files in loaded folder as lists)
 
-In file tree mode, currently only folder and files that are supported by Typora (Markdown file, text file, etc) is displayed.
+In file tree mode, currently only folders and files that are supported by Typora (Markdown file, text file, etc) are displayed.
 
 ### Global Search
 
-You could click the "Search" icon on side panel on macOS or just scroll top on side panel on Windows/Linux version of Typora to show global search input. Or use hotkey <kbd>Command(Ctrl) + Shift + F</kbd> to open global search.
+You can click the "Search" icon in the side panel on macOS or just scroll to the top of the side panel in the Windows/Linux version of Typora to show the global search input. Alternatively, use the hotkey <kbd>Command/Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> to open the global search.
 
 ## Outline
 
-Mouse over the windows toolbar and click the outline icon on the right top of the window can open outline panel. This Panel can be pinned to left side.
+Mouse over the windows toolbar and click the outline icon at the top right of the window to open the outline panel. This panel can be pinned to the left side.
 
 ## Word Count
 
-Mouse over the windows toolbar will make word count visible. "Always show word count" can be set from preference panel. Click it will popup detailed word count tooltip. If a range of text is selected word count for selection will also be displayed on word count tooltip.
+Hovering over the windows toolbar with your cursor will also make the word count visible. "Always show word count" can be set from the preference panel. Clicking it will pop up a detailed word count tooltip. If a range of text is selected, the word count for the selection will also be displayed.
 
 ## Copy
 
-We create typora and want to make it your default markdown editor, thus copy and paste means copy from another app or paste to another app, instead of *copy/paste from/to another markdown editor*. Therefore, by default, `Copy` means `Copy As HTML` ( and `Paste` means `Paste from HTML`). 
+We created Typora and want to make it your default Markdown editor, thus copy and paste means copy from another app or paste to another app, instead of *copy/paste from/to another Markdown editor*. Therefore, by default, `Copy` means `Copy As HTML` ( and `Paste` means `Paste from HTML`). 
 
-However, after click "**Copy Markdown source by default**", typora will copy selected text in HTML/markdown format (When pasting, rich editors will accept the HTML format, while plain text / code editor will accept the markdown source code format).
+However, after clicking "**Copy Markdown source by default**", Typora will copy selected text in HTML/Markdown format. (When pasting, rich editors will accept the HTML format, while plain text / code editors will accept the Markdown source code format).
 
-To **copy Markdown source code** explicitly, please use shortcut key `shift+cmd+c` or `Copy as Markdown` from menu. To **Copy as HTML Code**, please select `Copy as HTML Code` from menu.
+To **copy Markdown source code** explicitly, please use the shortcut key <kbd>Shift</kbd> + <kbd>Command</kbd> + <kbd>C</kbd>  or use `Copy as Markdown` from the menu. To **Copy as HTML Code**, please select `Copy as HTML Code` from the menu.
 
 ## Smart Paste
 
-**Typora** is able to analyze styles of the text content in your clipboard when pasting. For example, after pasting a `<h1>HEADING</h1>` from some website, typora will keep the 'first level heading’ format instead of paste ‘heading’ as plain text. 
+**Typora** is able to analyze styles of the text content in your clipboard when pasting. For example, after pasting  `<h1>HEADING</h1>` from some HTML, Typora will keep the 'first level heading’ format instead of pasting ‘heading’ as plain text. 
 
-To **paste as markdown source** or plain text, you should use `paste as plain text` or press the shortcut key: `shift+cmd+v`.
+To **paste as Markdown source** or plain text, you should use `paste as plain text` or use the shortcut key <kbd>Shift</kbd> + <kbd>Command</kbd> + <kbd>V</kbd>.
 
 ## Themes
 
-Please refer to `Help` → `Custom Themes` from menu bar.
+Please refer to `Help` → `Custom Themes` from the menu bar.
 
 ## Publish
 
-Currently Typora only support to export as **PDF** or **HTML**. More data format support as import/export will be integrated in future.
+Currently, Typora supports exporting to **PDF**, **HTML**, **HTML (without styles)** and an **Image** format. More formats (like Word, RTF, etc) are supported via [pandoc](https://pandoc.org/). Please visit the [Export](https://support.typora.io/Export/) support page for further information.
 
 ## Command Line Tool
 
@@ -97,9 +97,9 @@ Please see <https://support.typora.io/Use-Typora-From-Shell-or-cmd/>.
 
 <https://support.typora.io/>
 
-## And More ?
+## And More?
 
-For more questions or feedbacks, please contact us by:
+For more questions or feedback, please contact us by:
 
 - Home Page: http://typora.io
 - Email: <hi@typora.io>
