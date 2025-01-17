@@ -30,7 +30,7 @@ When you try to add an APT repository key using `apt-key` (first line in previou
 
 The easiest way would be just to ignore it.
 
-But if you’re not OK with the warning, you can do followings:
+But if you’re not OK with the warning, you can do the following:
 
 1. Download the key and save it locally somewhere.
 
@@ -38,13 +38,13 @@ But if you’re not OK with the warning, you can do followings:
    curl https://typora.io/linux/public-key.asc | gpg --dearmor > /usr/share/keyrings/typora.gpg
    ```
 
-2. Create repo file `typora.list` in `/etc/apt/sources.list.d`.
+2. Create the repo file `typora.list` in `/etc/apt/sources.list.d`.
 
    ```shell
    sudo vim /etc/apt/sources.list.d/typora.list
    ```
 
-3. Paste repo definition into this file:
+3. Paste the repo definition into this file:
 
    ```shell
    deb [arch=amd64 signed-by=/usr/share/keyrings/typora.gpg] https://typora.io/linux ./
@@ -59,7 +59,7 @@ But if you’re not OK with the warning, you can do followings:
 
 ### Upgrade Typora
 
-After installing Typora, the `typora` package will be managed by `apt-get`, so when your system updates installed packages, or you execute `apt-get upgrade`, Typora will be updated to latest version.
+After installing Typora, the `typora` package will be managed by `apt-get`, so when your system updates installed packages, or you execute `apt-get upgrade`, Typora will be updated to the latest version.
 
 ```bash
 # upgrade all packages include Typora
@@ -83,27 +83,27 @@ sudo apt-get install typora
 
 ## Download deb file manually
 
-You can also manually download and install the deb package file, following those steps:
+You can also manually download and install the deb package file by following these steps:
 
-1. Find download link from <https://typora.io/releases/all> and download the Linux version.
+1. Find the download link from <https://typora.io/releases/all> and download the Linux version.
 2. Double click the deb file to start installing on Ubuntu / Debian.
 
 ## ChromeOS / Chrome Book
 
-Firstly, you will need to enable Linux on Chromebook, following “Turn on Linux” part on https://support.google.com/chromebook/answer/9145439?hl=en
+Firstly, you will need to enable Linux on Chromebook by following the “Turn on Linux” part here https://support.google.com/chromebook/answer/9145439?hl=en
 
 Then, input commands from https://typora.io/#linux into the newly opened terminal window.
 
 ## Other Distributions
 
 1. Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz).
-2. Try to install `apt-get` on your distribution, and then install typora.
+2. Try to install `apt-get` on your distribution and then install Typora.
 
 ## Snap Version
 
-You could also install Typora via `snap install typora`.
+You can also install Typora via `snap install typora`.
 
-Please notice the [limitation of snap version](/Snap/#limitations-for-the-snap-version).
+Please notice the [limitations of the snap version](/Snap/#limitations-for-the-snap-version).
 
 ## Wayland
 
@@ -129,7 +129,7 @@ Typora for Linux is tested only on Ubuntu. So, if you have a problem with other 
 
 #### Error on Debian Stretch
 
-For following error:
+For the following error:
 
 ```
 [8898:0620/213856.172363:FATAL:setuid_sandbox_host.cc(157)] The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I'm aborting now. You need to make sure that /usr/share/typora/chrome-sandbox is owned by root and has mode 4755.
@@ -141,31 +141,31 @@ See discussion in https://github.com/electron/electron/issues/17972
 
 #### Cannot open Typora binary "there is no application installed for shared library"
 
-When double clicking on Typora's binary file, Nautilus (file manager) doesn't run it, as I can't detect it as an executable file.
+When double clicking on Typora's binary file, Nautilus (file manager) doesn't run it as it can't detect it as an executable file.
 
-This is caused by a Nautilus's bug, see discussions in https://github.com/electron/electron/issues/15406. You can either: install Typora via `deb` or `apt-get`, or run Typora from terminal (`./Typora`).
+This is caused by a Nautilus bug, see discussions in https://github.com/electron/electron/issues/15406. You can either: install Typora via `deb` or `apt-get`, or run Typora from the terminal (`./Typora`).
 
 #### Started Typora and got `version GLIBCXX_3.4.21 not defined in file libstdc++.so.6` error
 
-When  you start Typora on Ubuntu 14.x, if following error happens: 
+When  you start Typora on Ubuntu 14.x, if the following error happens: 
 
 ```
 /usr/share/typora/Typora: relocation error: /usr/share/typora/resources/app/node_modules/spellchecker/build/Release/spellchecker.node: symbol _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
 ```
 
-then download the Debian of package libstdc++6 for Xenial at link http://packages.ubuntu.com/xenial/libstdc++6 and installed it using `dpkg -i` (reference: https://askubuntu.com/questions/777803/apt-relocation-error-version-glibcxx-3-4-21-not-defined-in-file-libstdc-so-6).
+Then download the Debian version of package libstdc++6 for Xenial at the following link http://packages.ubuntu.com/xenial/libstdc++6 and install it using `dpkg -I` (Reference: https://askubuntu.com/questions/777803/apt-relocation-error-version-glibcxx-3-4-21-not-defined-in-file-libstdc-so-6).
 
-#### [Ubuntu 14.04 ] typora: /lib/x86_64-linux-gnu/libdbus-1.so.3: no version information available (required by typora)
+#### [Ubuntu 14.04 ] typora: /lib/x86_64-linux-gnu/libdbus-1.so.3: no version information available (required by Typora)
 
 See [electron/electron#16364 (comment)](https://github.com/electron/electron/issues/16364#issuecomment-492199424)
 
 #### Error while loading shared libraries: libgconf-2.so.4
 
-Try install `libgconf-2-4` first.
+Try installing `libgconf-2-4` first.
 
 #### NSS out-of-date
 
-If you receive following error when launching Typora:
+If you receive the following error when launching Typora:
 
 ```
 [7465:7499:0911/174740.042852:FATAL:nss_util.cc(632)] NSS_VersionCheck("3.26") failed. NSS >= 3.26 is required. Please upgrade to the latest NSS, and if you still get this error, contact your distribution maintainer.
@@ -184,28 +184,28 @@ You can add a repository by:
 echo -e "\ndeb https://typora.io/linux ./" | sudo tee -a /etc/apt/sources.list
 ```
 
-see related discussion in <https://github.com/typora/typora-issues/issues/2065#issuecomment-455877843>. 
+See related discussion in <https://github.com/typora/typora-issues/issues/2065#issuecomment-455877843>. 
 
 #### Shortcut for Heading 5 is not working
 
-Please check if you uses fcitx (e.g. for typing Chinese)? `Ctrl + 5` is the global shortcut key for fcitx to reload its config. Deleting that global shortcut should make ctrl+5 work in Typora. (Thanks to https://github.com/typora/typora-issues/issues/867#issuecomment-647082881).
+Please check if you use fcitx (e.g. for typing Chinese)? <kbd>Ctrl</kbd> + <kbd>5</kbd> is the global shortcut key for fcitx to reload its config. Deleting that global shortcut should make <kbd>Ctrl</kbd> + <kbd>5</kbd> work in Typora. (Thanks to https://github.com/typora/typora-issues/issues/867#issuecomment-647082881).
 
 #### libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
 
-Try launch typora with extra arguments `--disable-gpu`.
+Try launching Typora with the extra argument `--disable-gpu`.
 
 #### Text not displayed in dialogs
 
 ![text not displayed in open file dialog](https://user-images.githubusercontent.com/26056183/89756594-a3094c80-db00-11ea-943c-f214fea0c5ef.png)
 
-Please refer <https://github.com/electron-userland/electron-builder/issues/5217#issuecomment-700707564>
+Please refer to <https://github.com/electron-userland/electron-builder/issues/5217#issuecomment-700707564>
 
 #### Save-as or Save file dialog cannot be displayed
 
-When you save or save-as file, the dialog does not pop up and in terminal, you got 
+When you save or save-as a file, the dialog does not pop up and in terminal you get: 
 
 ```
 (typora:114856): Gtk-WARNING **: 15:47:01.744: Can't open portal file chooser: GDBus.Error:org.freedesktop.portal.Error.InvalidArgument: invalid filter: no filters
 ```
 
-Then, you can try run Typora with `GTK_USE_PORTAL=0 typora`
+Then, you can try running Typora with `GTK_USE_PORTAL=0 typora`

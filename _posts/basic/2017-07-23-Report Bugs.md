@@ -12,30 +12,30 @@ typora-root-url: ../../
 - Email: <hi@typora.io>
 - Github Issues: https://github.com/typora/typora-issues
 
-You could also reach us for suggestions, complains, or any discussions.
+You can also reach us for suggestions, complaints or any discussions.
 
 ## What to tell us?
 
-- Your typora version and OS version
-- Descriptions about the bug, if you don't want to type, just throw us a screenshot is also OK.
-- A way to reproduce the bug, or a sample file that may trigger the bug is very helpful for us. We will appreciate it if you can find it and tell us that. If it cannot be reproduced, then anything that may relates is also very helpful.
+- Your Typora version and OS version
+- Descriptions about the bug, if you don't want to type then sending us a screenshot is also OK.
+- A way to reproduce the bug or a sample file that may trigger the bug is very helpful for us. If the bug cannot be reproduced, then anything that may relate to it is also very helpful.
 
 ## Logs
 
-For critical bugs, like crash, or content loss, the log file may be helpful. You could find logs in
+For critical bugs, like crashes or content loss, the log file may be helpful. You can find logs by:
 
 - **macOS**
 
-  Open `Console.app` and type "typora" in the search input.
+  Opening `Console.app` and typing "Typora" in the search input.
 
   Or see [details here](/Get-Logs/).
 
 - **Windows**
 
-  `typora.log` under `C:\Users\{username}\AppData\Roaming\Typora`, or click "Open Theme Folder" in preference panel, and find `typora.log` on its parent folder. 
+  Finding `typora.log` under `C:\Users\{username}\AppData\Roaming\Typora` or by clicking "Open Theme Folder" in the preferences panel and finding `typora.log` in the parent folder. 
 
 - **Linux**
 
-  Click "Open Theme Folder" in preference panel, and find `typora.log` on its parent folder.
+  Clicking "Open Theme Folder" in the  preferences panel, and finding `typora.log` in the parent folder.
 
-If you want to send us log (which is very appreciated), do not attach it in Github for privacy concerns, please email to us directly. The log file should not contain any sensitive data, and we will only use it for debug purpose and will delete it asap.
+If you want to send us the log (which is very much appreciated), do not attach it on Github for privacy concerns, please email it to us directly. The log file should not contain any sensitive data and we will only use it for debugging purposes and will delete it as soon as possible.
