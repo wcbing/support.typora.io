@@ -14,7 +14,7 @@ typora-copy-images-to: ../../media/diagrams
 
 Typora supports some Markdown extensions for diagrams, to use this feature, first **please enable Diagrams in Preferences Panel → Markdown section**.
 
-When exporting as HTML, PDF, epub, docx, those rendered diagrams will also be included, but diagrams features are not supported when exporting markdown into other file formats in current version. Besides, you should also notice that diagrams is not supported by standard Markdown, CommonMark or GFM. Therefore, we still recommend you to insert an image of these diagrams instead of write them in Markdown directly.
+When exporting as HTML, PDF, epub or docx, those rendered diagrams will also be included, but diagram features are not supported when exporting Markdown into other file formats in the current version. Also, you should note that diagrams are not supported by standard Markdown, CommonMark or GFM. Therefore, we still recommend you to insert an image of these diagrams instead of writing them in Markdown directly.
 
 # Sequence Diagrams
 
@@ -33,7 +33,7 @@ Bob-->Alice: I am good thanks!
 For more details, please see [this syntax explanation](https://bramp.github.io/js-sequence-diagrams/#syntax).
 ### Sequence Diagrams Options
 
-You could change CSS variable `--sequence-theme` to set theme for sequence diagrams, supported value are `simple` (default) and `hand`. For example, add following CSS in [Custom CSS](https://support.typora.io/Add-Custom-CSS/), and you will get:
+You can change the CSS variable `--sequence-theme` to set the theme for sequence diagrams, supported values are `simple` (default) and `hand`. For example, add the following CSS in [Custom CSS](https://support.typora.io/Add-Custom-CSS/), and you will get:
 ```css
 :root {
   --sequence-theme: hand
@@ -346,11 +346,11 @@ You can change Mermaid options by adding [Custom CSS](https://support.typora.io/
 }
 ```
 
-Please note that if you export document with other themes than currently used one, some mermaid options will not be applied to exported HTML / PDF / Image. For example, if you currently use them Github, but while export to PDF, you set theme YYY for PDF export, and YYY.css defines `--mermaid-sequence-numbers: on`, then the `--mermaid-sequence-numbers: on` would not be applied to exported PDF.
+Please note that if you export a document with themes other than the currently used one, some mermaid options will not be applied to exported HTML / PDF / Images. For example, if you currently use the Github theme, then export to PDF using the theme YYY and YYY.css defines `--mermaid-sequence-numbers: on`, then the `--mermaid-sequence-numbers: on` would not be applied to the exported PDF.
 
 ### Diagram Alignment
 
-You can add below custom CSS following [Add Custom CSS](/Add-Custom-CSS/) to left align your diagram.
+You can add the custom CSS below by following [Add Custom CSS](/Add-Custom-CSS/) to left align your diagram.
 
 ```css
 .md-diagram-panel-preview {text-align:left;}
@@ -358,7 +358,7 @@ You can add below custom CSS following [Add Custom CSS](/Add-Custom-CSS/) to lef
 
 ### Mermaid Theme
 
-Added `--mermaid-theme` css variable to quickly define a mermaid theme that fits your theme, the value can be `base`, `default`, `dark`, `forest`, `neutral`, `night` (the one used in night theme), for example:
+The `--mermaid-theme` css variable can quickly define a mermaid theme that fits your theme, the value can be `base`, `default`, `dark`, `forest`, `neutral` or `night` (the one used in night theme), for example:
 
 | CSS                                | Mermaid Demo                                                 |
 | ---------------------------------- | ------------------------------------------------------------ |
@@ -368,7 +368,7 @@ Added `--mermaid-theme` css variable to quickly define a mermaid theme that fits
 
 ### Auto Numbering
 
-Add `--mermaid-sequence-numbers: on;` in [Custom CSS](https://support.typora.io/Add-Custom-CSS/) will enable auto numbering for sequence in mermaid:
+Adding `--mermaid-sequence-numbers: on;` in the [Custom CSS](https://support.typora.io/Add-Custom-CSS/) will enable auto numbering for sequences in mermaid:
 
 | --mermaid-sequence-numbers:off                               | --mermaid-sequence-numbers:on                                |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -390,14 +390,14 @@ Add `--mermaid-flowchart-curve: basis` to get other type of curves.
 
 ## Inline Mermaid Config
 
-You can add `%%{init: [options]}%%` in the first line of mermaid diagram to config mermaid details like below:
+You can add `%%{init: [options]}%%` to the first line of your mermaid diagram to configure mermaid details as shown below:
 
 <img src="/media/new-1.4/Screen%20Shot%202022-08-19%20at%2016.04.36.png" alt="Screen Shot 2022-08-19 at 16.04.36" style="zoom:50%;" />
 
-You can find full document on <https://mermaid-js.github.io/mermaid/#/./directives>.
+You can find full documentation at <https://mermaid-js.github.io/mermaid/#/./directives>.
 
 # Save-as / Copy on Diagrams
 
-You can right click on a diagram to save it as SVG, PNG or JPG files to your local disk.
+You can right click on a diagram to save it as a SVG, PNG or JPG file on your local disk.
 
-Also, you can right click on a diagram to copy it in your clipboard.
+Also, you can right click on a diagram to copy it to your clipboard.

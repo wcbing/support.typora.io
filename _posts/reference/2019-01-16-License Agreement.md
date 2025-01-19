@@ -5,7 +5,6 @@ author: typora.io
 category: reference
 tags: [EULA, Term of Service]
 typora-root-url: ../../
-
 ---
 
 > Please read this End User License Agreement (a.k.a “EULA”, "License Agreement") before You purchase a License Key for the Software and subsequently download and use the Software.
@@ -18,7 +17,7 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 
 ## 1. Definitions
 
-- "**We**" a.k.a. "us", or "typora.io". Developer(s) of Typora.
+- "**We**" a.k.a. "us", or "typora.io". Developer(s) of Typora, a.k.a. Qiyun (Shanghai) Technology Ltd.
 - **“Documentation”** the detailed information about the Software, its features and the system requirements as made available on the website of typora.io, as amended from time to time.
 - **“Open Source Software”** any software that requires as a condition of use, copying, modification and/or distribution of such software that such software or other software incorporated into, derived from or distributed with such software (a) be disclosed or distributed in source code form, and (b) be licensed for the purpose of making and/or distributing derivative works, and (c) be redistributable at no charge;
 - **“Beta version”** the license for the Software for public testing before version 1.0.

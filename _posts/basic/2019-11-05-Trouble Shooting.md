@@ -11,7 +11,7 @@ typora-root-url: ../../
 
 #### Inline math (Latex code), mermaid, etc are not working
 
-Please enable related features in preferences panel.
+Please enable related features in the preferences panel.
 
 #### How to downgrade
 
@@ -19,7 +19,7 @@ You can find old release builds here:
 
 <https://typora.io/releases/all>
 
-#### Recovered old / unsaved data
+#### Recover old / unsaved data
 
 Please check http://support.typora.io/Version-Control/
 
@@ -27,15 +27,15 @@ Please check http://support.typora.io/Version-Control/
 
 #### Cannot open / input on macOS 10.15
 
-Please refer [#2923](https://github.com/typora/typora-issues/issues/2923), cleaning existing config / cache of Typora using 3rd app such as AppCleaner, and then restart Typora will get everything working again.
+Please refer to [#2923](https://github.com/typora/typora-issues/issues/2923), cleaning the existing config / cache of Typora using a 3rd party app such as AppCleaner and then restarting Typora will get everything working again.
 
 #### Cannot save / close / quit / export on macOS 10.15
 
-Please refer [#2895](https://github.com/typora/typora-issues/issues/2895), cleaning existing config / cache of Typora using 3rd app such as AppCleaner, and then restart Typora will get everything working again.
+Please refer to [#2895](https://github.com/typora/typora-issues/issues/2895), cleaning the existing config / cache of Typora using a 3rd party app such as AppCleaner and then restarting Typora will get everything working again.
 
 #### How to uninstall Typora
 
-You can remove following manually:
+You can manually remove the following:
 
 ```
 ~/Applications/Typora.app
@@ -45,46 +45,46 @@ You can remove following manually:
 ~/Library/Saved Application State/abnerworks.Typora.savedState
 ```
 
-#### Typora always open a large file and hang on start
+#### Typora always open a large file and hangs on start
 
-Please remove `~/Library/Saved Application State/abnerworks.Typora.savedState/` manually to prevent Typora from reopening last crashed files for next launch.
+Please remove `~/Library/Saved Application State/abnerworks.Typora.savedState/` manually to prevent Typora from reopening the last crashed files for the next launch.
 
 #### Typora window is blank after launch.
 
-Try remove `~/Library/Caches/abnerworks.Typora/`, or reboot your macOS.
+Try removing `~/Library/Caches/abnerworks.Typora/`, or reboot macOS.
 
 #### "Save" button is gray / disabled on macOS 12.3
 
-Please try following workarounds:
+Please try the following workarounds:
 
 1. Resize the Save As dialog and check. 
-2. If the problem persists, pan around with the dialog and check if the Save button appears.
+2. If the problem persists, pan around within the dialog and check if the Save button appears.
 
-(refer https://helpx.adobe.com/in/illustrator/kb/unable-to-save-files-macOS.html)
+(refer to https://helpx.adobe.com/in/illustrator/kb/unable-to-save-files-macOS.html)
 
-Or you can try upgrade to 12.3.1 (https://ask.libreoffice.org/t/cannot-save-libre-office-documents-in-mac-os-monterey/76056)
+Or you can try upgrading to 12.3.1 (https://ask.libreoffice.org/t/cannot-save-libre-office-documents-in-mac-os-monterey/76056)
 
 ## Windows
 
 #### Typora window is blank / black
 
-This may caused by compatibility issue between Electron / Chromium and certain GPU driver, please try
+This may be caused by a compatibility issue between Electron / Chromium and certain GPU drivers, please try
 
-- Upgrade your GPU drive to latest
+- Upgrading your GPU driver to the latest version
 
 - Or, disable GPU rendering following [#2051](https://github.com/typora/typora-issues/issues/2051), in short
 
-  Adding option `"flags": [["disable-gpu"]]` in
+  Adding the option `"flags": [["disable-gpu"]]` in
   `C:\Users\[your-user]\AppData\Roaming\Typora\conf\conf.user.json` .
   
--   Adding option `"flags": [["disable-gpu-sandbox"]]` in
+-   Adding the option `"flags": [["disable-gpu-sandbox"]]` in
   `C:\Users\[your-user]\AppData\Roaming\Typora\conf\conf.user.json` . (<https://github.com/electron/electron/issues/32074>)
   
 - Uninstall Typora, delete `C:\Users\[username}]\AppData\Roaming\Typora`, then reinstall Typora.
 
-#### Typora exit after launch on Windows 7
+#### Typora exits after launching on Windows 7
 
-The version 1.4.3 does not support Windows 7 yet, please download to [1.3.8 (x64)](https://download.typora.io/windows/typora-setup-x64-1.3.8.exe) or [1.3.8 (ia32)](https://download.typora.io/windows/typora-setup-ia32-1.3.8.exe). 
+The version 1.4.3 does not support Windows 7 yet, please download [1.3.8 (x64)](https://download.typora.io/windows/typora-setup-x64-1.3.8.exe) or [1.3.8 (ia32)](https://download.typora.io/windows/typora-setup-ia32-1.3.8.exe). 
 
 ## Linux
 
